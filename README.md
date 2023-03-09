@@ -14,30 +14,39 @@ change example.env to .env
 
 ___________________________________________________________
 
+
 PSR-4 USED TO AUTOLOAD CLASSES FROM APP AND SRC FOLDERS
 
+
 ROUTE Class for routing / URL MAPPING : use src\Http\Route; 
-____ Route::get('path' , function || array);
+-> Route::get('path' , function || array);
+
 
 VIEW Class for including view files from view folder  : use src\Http\Route; 
-____ example.view.php / view::make('example' , []) : use src\View\View;
+-> example.view.php / view::make('example' , []) : use src\View\View;
+
 
 Session Class session managing + Session Flash Messages / old / errors / success  | use src\Support\Session;
-____   $session->setFlash('errors', $errors); // $session->setFlash('old', $_REQUEST);
+->   $session->setFlash('errors', $errors); // $session->setFlash('old', $_REQUEST);
+
 
 Request class GET request data / method / path 
-____ use src\Http\Request;
+-> use src\Http\Request;
+
 
 Model ->  MySql Manager / querybuilder 
-____ User::all(); |Posts::Update(['col' => 'val' , 'col' => 'val'])->where()  | CRUD | ->OrderBy() 
+-> User::all(); |Posts::Update(['col' => 'val' , 'col' => 'val'])->where()  | CRUD | ->OrderBy() 
+
 
 App => App/models , App/controllers
 
 _________________________________________________________________________________________
 
-$_ENV / .env / vlucas/phpdotenv
-dd() / dump() / symfony/var-dumper
-helpers.php => src/Support/helpers.php #### old() / is_user() / is_gest() / is_admin() / asset() / view() / env() / require_with()
+-> $_ENV / .env / vlucas/phpdotenv
+
+-> dd() / dump() / symfony/var-dumper
+
+-> helpers.php => src/Support/helpers.php #### old() / is_user() / is_gest() / is_admin() / asset() / view() / env() / require_with()
 
 _____________________________________________________________
 FIGMA DESIGN
