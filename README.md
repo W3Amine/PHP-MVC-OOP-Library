@@ -37,6 +37,7 @@ ________________________________________________________________________________
 
 $_ENV / .env / vlucas/phpdotenv
 dd() / dump() / symfony/var-dumper
+helpers.php => src/Support/helpers.php #### old() / is_user() / is_gest() / is_admin() / asset() / view() / env() / require_with()
 
 _____________________________________________________________
 FIGMA DESIGN
