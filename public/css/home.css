@@ -1,0 +1,41 @@
+header {
+  background-image: url("https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: all 1s;
+  animation: bgchanger 35s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+header div h1 {
+  margin-top: 174px;
+}
+@keyframes bgchanger {
+  0% {
+    background-image: url("https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg");
+    transition: all 1s;
+  }
+  25% {
+    background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f");
+    transition: all 1s;
+  }
+  50% {
+    background-image: url("https://i.ibb.co/7yJ39ZC/wallpaperflare-com-wallpaper-2.jpg");
+    transition: all 1s;
+  }
+  75% {
+    background-image: url("https://images.unsplash.com/photo-1524578271613-d550eacf6090");
+    transition: all 1s;
+  }
+  100% {
+    background-image: url("https://images.unsplash.com/photo-1526285759904-71d1170ed2ac");
+    transition: all 1s;
+  }
+}
+.HeaderOverlay {
+  background-color: #21252991;
+  height: 70vh;
+}

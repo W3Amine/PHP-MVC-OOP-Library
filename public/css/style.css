@@ -1,0 +1,35 @@
+.singlePageHeader {
+  background-image: url("https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.singlePageHeader div h1 {
+  margin-top: 124px;
+}
+.singlePageHeader .HeaderOverlay {
+  background-color: #21252991;
+  height: 44vh;
+}
+.floatLabel {
+  position: absolute;
+  font-size: 10px;
+  padding-left: 8px;
+  padding-top: 0px;
+}
+.RelativeSection {
+  background-color: var(--bs-body-bg);
+  position: relative;
+  top: -85px;
+}
+.itemsSection .card h5 {
+  margin: 0px !important;
+}
+.itemsSection .card p {
+  margin-top: 0;
+  margin-bottom: 4px !important;
+}
+.itemsSection .card img {
+  width: 200px;
+}
