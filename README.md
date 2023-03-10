@@ -12,6 +12,9 @@ From public Folder : php -S localhost:8000
 change example.env to .env
 
 
+DB in DB-DATA FOLDER Library.sql
+
+
 ___________________________________________________________
 
 
